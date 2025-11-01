@@ -61,5 +61,3 @@ cnnindonesia.com##.ads
 ##.ad-empty, .ad-space, .ad-placeholder
 
 ! ====================================================
-! Versi 2025.11 by ChatGPT (Optimized for Chrome + uBlock Origin)
-! ====================================================
