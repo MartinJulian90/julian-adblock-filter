@@ -1,0 +1,65 @@
+! ====================================================
+! 🔧 Julian's Optimized Ad Blocking Filters (2025)
+! Efektif untuk YouTube + Situs umum + Portal berita
+! Versi: 2025.11
+! ====================================================
+
+! ========== YOUTUBE ==========
+www.youtube.com##+js(ubo-youtube, player-ads)
+www.youtube.com##+js(set, yt.config_.ads.enable_ads, false)
+www.youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+www.youtube.com##ytd-promoted-video-renderer
+www.youtube.com##ytd-display-ad-renderer
+www.youtube.com##ytd-video-masthead-ad-v3-renderer
+www.youtube.com##ytd-companion-slot-renderer
+www.youtube.com##.ytd-banner-promo-renderer
+www.youtube.com##.ytp-ad-player-overlay
+www.youtube.com##.ytp-ad-preview-container
+www.youtube.com##.ytp-ad-text
+www.youtube.com##.ytp-ad-skip-button
+www.youtube.com##.ytp-ad-module
+www.youtube.com##.ytp-ad-image-overlay
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has-text(YouTube Premium)
+www.youtube.com##.yt-mealbar-promo-renderer
+
+! ========== SITUS UMUM ==========
+##.adsbygoogle
+##.ad-container
+##.adbanner
+##.ad-banner
+##.adbox
+##.ad-slot
+##.sponsored
+##.advertisement
+##.ad-wrapper
+##.ad-footer
+##.ad-top
+##.banner-ads
+##.sticky-ads
+##[id^="ad_"]
+##[class*="adblock"]
+##[data-ad]
+##[data-testid="ad"]
+
+! ========== SITUS BERITA LOKAL ==========
+kompas.com##.ad_display
+kompas.com##.banner__ads
+detik.com##.ad_box
+detik.com##.detail__iklan
+tribunnews.com##.ads-container
+liputan6.com##.banner-ads
+suara.com##.ads-slot
+tempo.co##.advertisement
+okezone.com##.adsense
+cnnindonesia.com##.ads
+
+! ========== LAIN-LAIN ==========
+##div:has-text(Sponsored)
+##div:has-text(Iklan)
+##span:has-text(Sponsored)
+##span:has-text(Iklan)
+##.ad-empty, .ad-space, .ad-placeholder
+
+! ====================================================
+! Versi 2025.11 by ChatGPT (Optimized for Chrome + uBlock Origin)
+! ====================================================
